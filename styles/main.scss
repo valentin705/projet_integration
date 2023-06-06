@@ -1,0 +1,48 @@
+// Utils
+@import "./utils/breakpoints.scss";
+@import "./utils/variables/colors.scss";
+@import "./utils/borders.scss";
+@import "./utils/flex.scss";
+@import "./utils/mixins.scss";
+
+// Pages Layout
+@import "./layout/navbar-top.scss";
+@import "./layout/navbar-bottom.scss";
+@import "./layout/header.scss";
+@import "./layout/section.scss";
+@import "./layout/footer.scss";
+
+// Components
+@import "./components/button.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    font-weight: bold;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.background-color-orange {
+    background: $background-color-secondary;
+    padding-bottom: 1rem;
+}
+
+ul {
+    list-style: disc;
+    margin: 1rem;
+}
+
+li {
+    margin: 0.5rem;
+    &::marker {
+        color: $primary-color;
+    }
+}

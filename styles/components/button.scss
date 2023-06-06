@@ -1,0 +1,72 @@
+.btn-contact, .btn-all-exp, .btn-decouv-real {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    background-color: #f49d01;
+    color: white;
+    border: none;
+    border-radius: 0 10px 10px 10px;
+    padding: 1rem 2rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-decouv-real {
+    @media screen and (min-width: 1024px) {
+        margin: 2rem 2rem 2rem 10rem;
+    }
+}
+
+.btn-fr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #f49d01;
+    color: white;
+    border: none;
+    border-radius: 0 10px 10px 10px;
+    padding: 1rem 2rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-consulter, .btn-nos-realisations, .btn-all-actu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 2px solid rgba(244, 157, 0, 1);
+    border-radius: 0 10px 10px 10px;
+    color: rgba(244, 157, 0, 1);
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+}
+
+
+.btn-consulter, .btn-contact {
+    @media screen and (min-width: 1024px) {
+        width: 100%;
+        margin: 1rem
+    }
+}
+
+.btn-size-fr, .btn-size-en {
+    width: 40px;
+    height: 40px;
+}
+
+.btn-en {
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 18px;
+}

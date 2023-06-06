@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "scripts": {
+    "sass": "sass --watch ./styles/main.scss:./public/css/style.css"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

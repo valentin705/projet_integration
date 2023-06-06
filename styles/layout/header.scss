@@ -1,0 +1,123 @@
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem 3rem 1rem;
+    border-radius: 0 0 25px 25px;
+    background-color: #fff;
+    height: 8rem;
+
+    @media screen and (min-width: 1024px) {
+        display: none;
+    }
+}
+
+.header-flex-container {
+    max-width: 1115px;
+    margin: auto;
+
+    @media screen and (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+}
+
+.header-description-container {
+    background-color: #fff;
+    border-radius: 0 25px 25px 25px;
+    margin: 0 1rem 3rem 1rem;
+    padding: 1.5rem;
+
+    @media screen and (min-width: 1024px) {
+        height: fit-content;
+    }
+
+    &__img {
+        margin: 0 0 2rem 0;
+    }
+
+    &__content-1 {
+        margin: 0 0 2rem 0;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    &__content-2 {
+        margin: 0 0 2rem 0;
+        font-size: 16px;
+    }
+
+    &__hashtag {
+        color: rgba(244, 157, 1, 1);
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    &__btn-flex {
+        @media screen and (min-width: 676px) {
+            display: flex;
+        }
+    }
+}
+
+.actualite-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 1024px) {
+        width: 100%;
+    }
+
+    &__img {
+        margin: 0 1rem 2rem 1rem;
+        width: 95%;
+    }
+
+    &__text {
+        padding: 1rem 2rem 1rem 2rem;
+        font-size: 20px;
+        border-radius: 15px;
+        position: relative;
+        bottom: 6rem;
+        background-color: #fff;
+        box-sizing: border-box;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 95%;
+    }
+
+    &__calendrier {
+        display: flex;
+        justify-content: end;
+        padding-top: 1rem;
+    }
+
+    &__logo-calendrier {
+        margin: 0 0.5rem 0 0;
+    }
+
+    &__carroussel {
+        display: flex;
+    }
+
+    &__carroussel-btn {
+        height: 20px;
+        width: 20px;
+        border-radius: 100%;
+        background-color: #fff;
+        margin: 0 1rem;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+        border: 1px solid #F0F0F0;
+    }
+
+    &__carroussel-btn:first-child {
+        background-color: #F49D01;
+    }
+
+}
+
